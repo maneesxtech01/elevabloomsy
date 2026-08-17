@@ -1,18 +1,20 @@
-# Project Memory - Elevabloomsy
+# Project Memory & Progress Log - Elevabloomsy
 
-## System State & Key Decisions
+## System Architecture & State Memory
 
-- **Architecture**: Shopify Online Store 2.0 theme written in Liquid, Vanilla CSS, and lightweight Web Components.
-- **Brand Palette**:
+### Core Brand & Design System
+- **Color Palette Applied**:
   - Primary Accent (Plum): `#6B2C5F`
-  - Secondary Highlight (Gold): `#F0B429`
+  - Rating & Highlights (Gold): `#F0B429`
   - Background (Cream): `#FDF8F0`
   - Body & Heading (Dark text): `#121212`
-- **Header Transformation**:
-  - Replaced legacy header structure with an **Uncommon Goods inspired header design**.
-  - Announcement Bar: Single looping headline `✨ Handmade Gifts & Premium Smart Watches | COD Available Across Pakistan ✨` in `#6B2C5F` background.
-  - Desktop View: Logo left, capsule search bar center (cyan spark ✨ + magnifier 🔍, live predictive search with `z-index: 999999`), action links right (`sign in`, `favorites`, `cart`). **Strictly no hamburger menu on desktop**.
-  - Mobile View: Theme default mobile layout with `SHOP ☰` toggle on left (triggering native side drawer menu & categories), logo in center, action icons & capsule search.
-  - Linked `cart` action item directly to theme slide-out minicart sidebar drawer.
-  - Custom Slide Height: Increased `desktop_height` range slider maximum limit from `1000px` to `1500px` across slideshow and overlay sections.
-  - Strict performance optimization constraint: lightweight pure Vanilla CSS & JS without heavy third-party libraries.
+
+### Recent Theme Modifications & Enhancements
+1. **Header & Navigation Transformation**:
+   - Refactored header layout and navigation structure.
+   - Strictly hid desktop hamburger toggle on desktop viewports while preserving clean mobile navigation layout.
+2. **Slideshow & Section Adjustments**:
+   - Expanded desktop slide height slider range up to 1500px in schema settings (`sections/slideshow.liquid`).
+   - Updated section overlays and layouts for `google-map.liquid`, `image-with-text-overlay.liquid`, `video-width-text-ovlerlay.liquid`, and `header-group.json`.
+3. **Repository Status**:
+   - Synchronized main branch with GitHub origin repository (`maneesxtech01/elevabloomsy`).
