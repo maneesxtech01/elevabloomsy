@@ -1,4 +1,4 @@
-/* Uncommon Goods Inspired Header Styling - Ultra Fast, Responsive & Dynamic */
+/* Uncommon Goods Inspired Header Styling - Desktop & Mobile Optimized */
 
 .header-uncommon {
   position: relative !important;
@@ -54,9 +54,9 @@
   visibility: visible !important;
 }
 
-/* Mobile Toggle SHOP Button */
+/* Mobile Toggle SHOP Button (Hidden on Desktop) */
 .header-uncommon__mobile-toggle {
-  display: flex !important;
+  display: none !important; /* Default hidden on Desktop */
   flex-direction: column !important;
   align-items: center !important;
   justify-content: center !important;
@@ -336,8 +336,18 @@
   font-weight: 700 !important;
 }
 
-/* Mobile Responsive Optimization */
-@media (max-width: 900px) {
+/* Desktop Viewport Rules (1025px+) */
+@media (min-width: 1025px) {
+  .header-uncommon__mobile-toggle {
+    display: none !important; /* Strictly no hamburger on desktop */
+  }
+}
+
+/* Mobile Responsive Optimization (<1025px) */
+@media (max-width: 1024.98px) {
+  .header-uncommon__mobile-toggle {
+    display: flex !important; /* Visible on mobile */
+  }
   .header-uncommon__top {
     padding: 10px 16px !important;
     gap: 12px !important;
@@ -355,8 +365,7 @@
   .header-uncommon__actions {
     gap: 16px !important;
   }
-  .header-uncommon__nav-list {
-    justify-content: flex-start !important;
-    gap: 18px !important;
+  .header-uncommon__nav-bar {
+    display: none !important; /* Mobile uses default side menu drawer when hamburger is clicked */
   }
 }
