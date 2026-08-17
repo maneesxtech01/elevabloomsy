@@ -8,11 +8,11 @@ Elevabloomsy features a refined, high-end floral & lifestyle design aesthetic ch
 
 | Name | Hex / Variable | Usage |
 | :--- | :--- | :--- |
-| **Primary Charcoal** | `#1C1917` / `--color-text` | Primary headings, body copy, dark buttons |
-| **Rose Petal Cream** | `#FDF8F5` / `--color-bg-primary` | Main background, container fills |
-| **Blush Floral Accent** | `#E8A598` / `--color-accent` | Primary CTA buttons, badge highlights |
-| **Botanical Sage** | `#708238` / `--color-secondary` | Secondary badges, stock status indicators |
-| **Muted Sand Border** | `#E7E5E4` / `--color-border` | Subtle divider lines, card borders |
+| **Plum** | `#6B2C5F` / `--color-primary` | Primary brand accent, primary CTA buttons |
+| **Gold** | `#F0B429` / `--color-secondary` | Highlights, ratings, special badges |
+| **Cream** | `#FDF8F0` / `--color-bg-primary` | Main page background, section fills |
+| **Dark Text** | `#121212` / `--color-text` | Primary headings, body copy, dark elements |
+| **Muted Border** | `#E7E5E4` / `--color-border` | Subtle divider lines, card borders |
 
 ---
 
