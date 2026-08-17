@@ -204,22 +204,22 @@
     "color_schemes": {
       "default": {
         "settings": {
-          "background": "#FDF8F0",
+          "background": "#fdf8f0",
           "background_gradient": "",
-          "primary_color": "#6B2C5F",
-          "text_color": "#121212",
-          "heading_color": "#121212",
+          "primary_color": "#6b2c5f",
+          "text_color": "#FFFFFF",
+          "heading_color": "#FFFFFF",
           "border_color": "#ebebeb",
           "btn_primary_color": "#ffffff",
-          "btn_primary_background": "#6B2C5F",
+          "btn_primary_background": "#6b2c5f",
           "btn_primary_gradient": "",
           "btn_primary_hover_color": "#ffffff",
-          "btn_primary_hover_background": "#54224A",
+          "btn_primary_hover_background": "#54224a",
           "btn_primary_hover_background_gradient": "",
-          "btn_outline_color": "#121212",
+          "btn_outline_color": "#FFFFFF",
           "btn_outline_border_color": "#121212",
           "button_link_color": "#121212",
-          "button_link_hover_color": "#6B2C5F"
+          "button_link_hover_color": "#6b2c5f"
         }
       },
       "scheme-4faf0e4d-27f4-4d02-bc51-617383bab1a9": {
