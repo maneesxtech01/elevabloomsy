@@ -13,8 +13,7 @@
 }
 
 .header-uncommon__container,
-.header-uncommon__top,
-.header-uncommon__nav-bar {
+.header-uncommon__top {
   position: relative !important;
   z-index: 101 !important;
   opacity: 1 !important;
@@ -55,11 +54,32 @@
   visibility: visible !important;
 }
 
+/* Mobile Toggle SHOP Button */
+.header-uncommon__mobile-toggle {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  cursor: pointer !important;
+  gap: 2px !important;
+  color: var(--color-primary, #6B2C5F) !important;
+}
+
+.mobile-shop-label {
+  font-size: 10px !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.08em !important;
+  text-transform: uppercase !important;
+  line-height: 1 !important;
+  color: var(--color-primary, #6B2C5F) !important;
+}
+
 .header-uncommon__search {
   flex: 1 !important;
   max-width: 620px !important;
   margin: 0 auto !important;
   position: relative !important;
+  z-index: 1000 !important;
 }
 
 .search-capsule-form {
@@ -129,7 +149,7 @@
   transition: opacity 0.2s ease !important;
 }
 
-/* Predictive Live Search Dropdown */
+/* Predictive Live Search Dropdown - High Z-Index */
 .predictive-search-dropdown {
   position: absolute !important;
   top: calc(100% + 8px) !important;
@@ -138,8 +158,8 @@
   background-color: #ffffff !important;
   border: 1px solid #e2e8f0 !important;
   border-radius: 16px !important;
-  box-shadow: 0 12px 28px -5px rgba(0, 0, 0, 0.12), 0 8px 12px -6px rgba(0, 0, 0, 0.06) !important;
-  z-index: 9999 !important;
+  box-shadow: 0 16px 36px -5px rgba(0, 0, 0, 0.18), 0 10px 15px -5px rgba(0, 0, 0, 0.08) !important;
+  z-index: 999999 !important;
   overflow: hidden !important;
   max-height: 420px !important;
   overflow-y: auto !important;
@@ -271,8 +291,10 @@
   display: inline-block !important;
 }
 
-/* Bottom Navigation Bar */
+/* Bottom Navigation Bar - Lower Z-Index so Predictive Search floats over it */
 .header-uncommon__nav-bar {
+  position: relative !important;
+  z-index: 1 !important;
   border-top: 1px solid #eaeaea !important;
   padding: 10px 16px !important;
   overflow-x: auto !important;

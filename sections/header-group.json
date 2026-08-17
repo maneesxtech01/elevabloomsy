@@ -17,30 +17,21 @@
         "announcement_1": {
           "type": "announcement",
           "settings": {
-            "text": "Free Delivery on Orders Above Rs. 3,000",
-            "text_mobile": "",
-            "link": "shopify://collections/frontpage"
-          }
-        },
-        "announcement_2": {
-          "type": "announcement",
-          "settings": {
-            "text": "Cash on Delivery Available Across Pakistan",
+            "text": "✨ Handmade Gifts & Premium Smart Watches | COD Available Across Pakistan ✨",
             "text_mobile": "",
             "link": "shopify://collections/frontpage"
           }
         }
       },
       "block_order": [
-        "announcement_1",
-        "announcement_2"
+        "announcement_1"
       ],
       "settings": {
-        "announcement_bg": "#a24c24",
+        "announcement_bg": "#6B2C5F",
         "announcement_text_color": "#ffffff",
         "font_size": 14,
         "auto_rotate": true,
-        "change_slides_speed": 5,
+        "change_slides_speed": 4,
         "padding_top": 10,
         "padding_bottom": 10
       }
