@@ -162,7 +162,10 @@
         "redirect_to_link": false,
         "menu_tab": "custom-collections",
         "collection_list": [
-          "frontpage"
+          "frontpage",
+          "beauty",
+          "gifts-and-bouquets",
+          "watches"
         ],
         "menu_mobile_color": "#ffffff",
         "menu_mobile_background": "#b65b2b",
