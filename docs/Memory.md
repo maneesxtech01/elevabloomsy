@@ -10,5 +10,7 @@
   - Body & Heading (Dark text): `#121212`
 - **Header Transformation**:
   - Replaced legacy header structure with an **Uncommon Goods inspired header design**.
-  - Components: Top logo, capsule search bar with spark icon & custom placeholder, horizontal action bar (Sign in, Favorites, Gift finder, Cart with text labels), and streamlined bottom navigation bar.
-  - Strict performance optimization constraint: lightweight pure CSS & Semantic HTML without heavy JS libraries.
+  - Components: Top logo, capsule search bar with cyan spark ✨ + magnifying glass 🔍 icon, dynamic cycling placeholder text (`search | geeky husband gifts, budget is $100`), **live instant predictive search dropdown** (`/search/suggest.json` fetching on 1+ keyup), action bar (`sign in`, `favorites`, `cart`), and streamlined bottom navigation bar.
+  - Removed `gift finder` action item per user request.
+  - Linked `cart` action item directly to theme slide-out minicart sidebar drawer.
+  - Strict performance optimization constraint: lightweight pure Vanilla CSS & JS without heavy third-party libraries.
