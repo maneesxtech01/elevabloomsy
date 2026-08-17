@@ -344,11 +344,11 @@
       },
       "scheme-e2434dd4-80ca-43a1-909b-8a9f7b57a7ab": {
         "settings": {
-          "background": "#ffffff",
+          "background": "#35162F",
           "background_gradient": "",
-          "primary_color": "#b65b2b",
-          "text_color": "#46200f",
-          "heading_color": "#46200f",
+          "primary_color": "#FFFFFF",
+          "text_color": "#FFFFFF",
+          "heading_color": "#FFFFFF",
           "border_color": "#ebebeb",
           "btn_primary_color": "#ffffff",
           "btn_primary_background": "#111111",

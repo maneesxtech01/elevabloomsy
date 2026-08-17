@@ -17,18 +17,26 @@
         "announcement_wKwz9q": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
+            "text": "<strong>✨ Handmade Gifts & Premium Smart Watches | COD Available Across Pakistan ✨</strong>",
+            "countdown_deadline": ""
+          }
+        },
+        "announcement_D4Czfy": {
+          "type": "announcement",
+          "settings": {
+            "text": "<strong>✨ Handmade Gifts & Premium Smart Watches | COD Available Across Pakistan ✨</strong>",
             "countdown_deadline": ""
           }
         }
       },
       "block_order": [
-        "announcement_wKwz9q"
+        "announcement_wKwz9q",
+        "announcement_D4Czfy"
       ],
       "name": "t:sections.announcement-bar.name",
       "settings": {
-        "section_width": "stretch_width",
-        "color_scheme": "default",
+        "section_width": "full_width",
+        "color_scheme": "scheme-e2434dd4-80ca-43a1-909b-8a9f7b57a7ab",
         "announcement_actions": "marquee",
         "show_close": true,
         "homepage_only": true,
