@@ -11,38 +11,38 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
-    "custom_announcement_bar": {
-      "type": "custom-announcement-bar",
+    "announcement_bar_FJkdp4": {
+      "type": "announcement-bar",
       "blocks": {
-        "announcement_1": {
+        "announcement_wKwz9q": {
           "type": "announcement",
           "settings": {
-            "text": "Free Delivery on Orders Above Rs. 3,000",
-            "text_mobile": "",
-            "link": "shopify://collections/frontpage"
-          }
-        },
-        "announcement_2": {
-          "type": "announcement",
-          "settings": {
-            "text": "Cash on Delivery Available Across Pakistan",
-            "text_mobile": "",
-            "link": "shopify://collections/frontpage"
+            "text": "Welcome to our store",
+            "countdown_deadline": ""
           }
         }
       },
       "block_order": [
-        "announcement_1",
-        "announcement_2"
+        "announcement_wKwz9q"
       ],
+      "name": "t:sections.announcement-bar.name",
       "settings": {
-        "announcement_bg": "#a24c24",
-        "announcement_text_color": "#ffffff",
-        "font_size": 14,
-        "auto_rotate": true,
-        "change_slides_speed": 5,
-        "padding_top": 10,
-        "padding_bottom": 10
+        "section_width": "stretch_width",
+        "color_scheme": "default",
+        "announcement_actions": "marquee",
+        "show_close": true,
+        "homepage_only": true,
+        "show_mobile": true,
+        "show_separator_line": true,
+        "uppercase": false,
+        "font_size": 12,
+        "font_weight": "subheading_weight",
+        "speed": 15,
+        "space_between": 50,
+        "icon_between_item": "none",
+        "change_every": 3,
+        "padding_top": 12,
+        "padding_bottom": 12
       }
     },
     "header": {
@@ -177,7 +177,7 @@
     }
   },
   "order": [
-    "custom_announcement_bar",
+    "announcement_bar_FJkdp4",
     "header"
   ]
 }

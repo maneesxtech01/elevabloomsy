@@ -204,19 +204,19 @@
     "color_schemes": {
       "default": {
         "settings": {
-          "background": "#fdf8f0",
+          "background": "#FDF8F0",
           "background_gradient": "",
           "primary_color": "#6b2c5f",
-          "text_color": "#FFFFFF",
-          "heading_color": "#FFFFFF",
+          "text_color": "#000000",
+          "heading_color": "#000000",
           "border_color": "#ebebeb",
-          "btn_primary_color": "#ffffff",
+          "btn_primary_color": "#FFFFFF",
           "btn_primary_background": "#6b2c5f",
           "btn_primary_gradient": "",
           "btn_primary_hover_color": "#ffffff",
           "btn_primary_hover_background": "#54224a",
           "btn_primary_hover_background_gradient": "",
-          "btn_outline_color": "#FFFFFF",
+          "btn_outline_color": "#ffffff",
           "btn_outline_border_color": "#121212",
           "button_link_color": "#121212",
           "button_link_hover_color": "#6b2c5f"
