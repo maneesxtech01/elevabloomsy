@@ -1,0 +1,113 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "heading": {
+      "type": "page-heading",
+      "blocks": {
+        "breadcrumb_6m9rGB": {
+          "type": "breadcrumb",
+          "settings": {}
+        },
+        "heading_xwFKKa": {
+          "type": "heading",
+          "settings": {
+            "page_title": "",
+            "header_size": "default"
+          }
+        }
+      },
+      "block_order": [
+        "breadcrumb_6m9rGB",
+        "heading_xwFKKa"
+      ],
+      "settings": {
+        "section_width": "container",
+        "color_scheme": "scheme-4faf0e4d-27f4-4d02-bc51-617383bab1a9",
+        "alignment": "center",
+        "background_image": "shopify://shop_images/rbmitti.webp",
+        "overlay_opacity": 50,
+        "height": "based_on_content",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "main": {
+      "type": "main-blog",
+      "blocks": {
+        "categories_gYgLVH": {
+          "type": "categories",
+          "settings": {
+            "title": "Blog Categories",
+            "menu": ""
+          }
+        },
+        "recent_post_KiffBB": {
+          "type": "recent_post",
+          "settings": {
+            "title": "Popular Posts",
+            "maximum": 3,
+            "image_ratio": "square",
+            "custom_ratio": ""
+          }
+        },
+        "tags_fxDYtj": {
+          "type": "tags",
+          "settings": {
+            "title": "Tags"
+          }
+        },
+        "image_banner_mhPKkQ": {
+          "type": "image_banner",
+          "settings": {
+            "url": "shopify://collections/all",
+            "open_link": true
+          }
+        }
+      },
+      "block_order": [
+        "categories_gYgLVH",
+        "recent_post_KiffBB",
+        "tags_fxDYtj",
+        "image_banner_mhPKkQ"
+      ],
+      "settings": {
+        "section_width": "container",
+        "enable_sidebar": false,
+        "sidebar_position": "left",
+        "layout": "grid",
+        "items_to_show": 8,
+        "items_per_row": 3,
+        "column_gap": 30,
+        "pagination": "load_more_button",
+        "button_show_more": "Load more",
+        "promotion_link": "",
+        "promotion_postion": 3,
+        "image_ratio": "adapt",
+        "custom_ratio": "",
+        "content_alignment": "left",
+        "show_category": true,
+        "show_date": true,
+        "show_author": false,
+        "show_excerpt": true,
+        "show_comment_count": true,
+        "show_readmore": false,
+        "readmore_type": "link",
+        "items_per_row_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "heading",
+    "main"
+  ]
+}

@@ -1,0 +1,127 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "heading": {
+      "type": "page-heading",
+      "blocks": {
+        "breadcrumb_y3y8re": {
+          "type": "breadcrumb",
+          "settings": {}
+        },
+        "heading_B3DXTc": {
+          "type": "heading",
+          "settings": {
+            "page_title": "Our Collections",
+            "header_size": "default"
+          }
+        },
+        "description_tLPCVn": {
+          "type": "description",
+          "settings": {
+            "description": "<p>From handmade clay cookware to dinnerware, drinkware, marble kitchen tools, wooden utensils, and our kids collection — explore everything RB Mitti has to offer, each piece carrying three generations of natural craftsmanship.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "breadcrumb_y3y8re",
+        "heading_B3DXTc",
+        "description_tLPCVn"
+      ],
+      "settings": {
+        "section_width": "container",
+        "color_scheme": "scheme-4faf0e4d-27f4-4d02-bc51-617383bab1a9",
+        "alignment": "center",
+        "background_image": "shopify://shop_images/rbmitti.webp",
+        "overlay_opacity": 50,
+        "height": "based_on_content",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "main": {
+      "type": "main-list-collections",
+      "blocks": {
+        "collection_GawBmm": {
+          "type": "collection",
+          "settings": {
+            "collection": "cookware",
+            "collection_title": ""
+          }
+        },
+        "collection_k6UJWD": {
+          "type": "collection",
+          "settings": {
+            "collection": "dinner-sets",
+            "collection_title": ""
+          }
+        },
+        "collection_Dh49Wa": {
+          "type": "collection",
+          "settings": {
+            "collection": "drinkware",
+            "collection_title": ""
+          }
+        },
+        "collection_qag64J": {
+          "type": "collection",
+          "settings": {
+            "collection": "kids-collection",
+            "collection_title": ""
+          }
+        },
+        "collection_Kk8pDP": {
+          "type": "collection",
+          "settings": {
+            "collection": "marble-tools",
+            "collection_title": ""
+          }
+        },
+        "collection_ACrmpU": {
+          "type": "collection",
+          "settings": {
+            "collection": "wooden-collection",
+            "collection_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_GawBmm",
+        "collection_k6UJWD",
+        "collection_Dh49Wa",
+        "collection_qag64J",
+        "collection_Kk8pDP",
+        "collection_ACrmpU"
+      ],
+      "settings": {
+        "section_width": "container",
+        "color_scheme": "scheme-2b5c6c91-201d-4fb1-aba3-e6d562656976",
+        "type": "all",
+        "sort_collections": "alphabetical",
+        "image_ratio": "portrait",
+        "show_product_count": false,
+        "design": "default",
+        "text_alignment": "center",
+        "font_size": 16,
+        "items_to_show": 8,
+        "items_per_row": 3,
+        "column_gap": 30,
+        "pagination": "load_more_button",
+        "button_show_more": "Load more",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "heading",
+    "main"
+  ]
+}

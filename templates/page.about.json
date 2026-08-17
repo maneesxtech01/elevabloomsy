@@ -1,0 +1,386 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "page-heading": {
+      "type": "page-heading",
+      "blocks": {
+        "breadcrumb_kg6gTP": {
+          "type": "breadcrumb",
+          "settings": {}
+        },
+        "heading_GKCNkF": {
+          "type": "heading",
+          "settings": {
+            "page_title": "",
+            "header_size": "large"
+          }
+        }
+      },
+      "block_order": [
+        "breadcrumb_kg6gTP",
+        "heading_GKCNkF"
+      ],
+      "settings": {
+        "section_width": "fluid_container",
+        "color_scheme": "scheme-4faf0e4d-27f4-4d02-bc51-617383bab1a9",
+        "alignment": "center",
+        "background_image": "shopify://shop_images/rbmittistore.webp",
+        "overlay_opacity": 30,
+        "height": "based_on_content",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "custom_our_story_h9UCMz": {
+      "type": "custom-our-story",
+      "blocks": {
+        "subheading_8cGMnf": {
+          "type": "subheading",
+          "settings": {
+            "text": "About RB Mitti Store",
+            "color": "#b1552b"
+          }
+        },
+        "heading_HkaLdp": {
+          "type": "heading",
+          "settings": {
+            "text": "Three Generations, One Craft",
+            "color": "#000000"
+          }
+        },
+        "text_9AGHNn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>RB Mitti Store carries forward a tradition that began generations before us. What started with hands shaping raw clay in a small family workshop has grown into a trusted name in natural, handcrafted kitchenware — bringing that same craftsmanship to homes across Pakistan.</p>",
+            "color": "#121212"
+          }
+        },
+        "text_FVikwA": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>We don't rely on factories or mass production — each item is shaped by hand, dried naturally, and fired the traditional way, exactly as it was taught to us. That knowledge shows in the durability, the finish, and the authenticity of every piece that leaves our workshop.<br/><br/></p>",
+            "color": "#121212"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_8cGMnf",
+        "heading_HkaLdp",
+        "text_9AGHNn",
+        "text_FVikwA"
+      ],
+      "name": "Custom Our Story",
+      "settings": {
+        "section_width": "container",
+        "color_scheme": "default",
+        "layout_desktop": "image_left",
+        "max_width": 1200,
+        "bg_color": "#ffffff",
+        "show_border_bottom": false,
+        "border_bottom_color": "#2c2609",
+        "image": "shopify://shop_images/03_77e9f6d4-df8d-43af-925a-3a5af279df1a.webp",
+        "image_aspect_ratio": "square",
+        "image_border_radius": 8,
+        "padding_top": 60,
+        "padding_bottom": 80,
+        "reset_spacing": true
+      }
+    },
+    "custom_our_story_KHAtRF": {
+      "type": "custom-our-story",
+      "blocks": {
+        "subheading_PWEybq": {
+          "type": "subheading",
+          "settings": {
+            "text": "FOUNDER'S STORY",
+            "color": "#b1552b"
+          }
+        },
+        "heading_JHf8NJ": {
+          "type": "heading",
+          "settings": {
+            "text": "FOUNDER'S STORY",
+            "color": "#000000"
+          }
+        },
+        "text_rC7RHU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>RB Mitti Store is run today by Muhammad Shakir, who continues a craft passed down through three generations of his family. What began with his great-grandfather working clay by hand was carried forward through his grandfather, and now continues under his leadership.</p>",
+            "color": "#121212"
+          }
+        },
+        "text_VRJyt3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Growing up around this craft, Muhammad Shakir learned more than technique — he learned patience, respect for natural materials, and the discipline of doing things the honest way, even as the wider market shifted toward mass-produced, chemical-coated alternatives.</p>",
+            "color": "#121212"
+          }
+        },
+        "text_NFWMi7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Today, RB Mitti Store brings that inherited craftsmanship to homes across Pakistan — natural clay, marble, and wooden kitchenware, made the same honest way it always has been.<br/></p>",
+            "color": "#121212"
+          }
+        },
+        "quote_box_EfjKFz": {
+          "type": "quote_box",
+          "settings": {
+            "text": "\"This isn't a business I started — it's a craft I inherited from my great-grandfather, and it runs through everything we make today.\"",
+            "bg_color": "#a24c24",
+            "border_color": "#ffffff",
+            "text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_PWEybq",
+        "heading_JHf8NJ",
+        "text_rC7RHU",
+        "text_VRJyt3",
+        "text_NFWMi7",
+        "quote_box_EfjKFz"
+      ],
+      "name": "Custom Our Story",
+      "settings": {
+        "section_width": "container",
+        "color_scheme": "default",
+        "layout_desktop": "image_right",
+        "max_width": 1200,
+        "bg_color": "#fff4f0",
+        "show_border_bottom": false,
+        "border_bottom_color": "#2c2609",
+        "image": "shopify://shop_images/03_77e9f6d4-df8d-43af-925a-3a5af279df1a.webp",
+        "image_aspect_ratio": "portrait",
+        "image_border_radius": 8,
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "reset_spacing": true
+      }
+    },
+    "custom_brand_values_hwhrpU": {
+      "type": "custom-brand-values",
+      "blocks": {
+        "value_card_pDDFgz": {
+          "type": "value_card",
+          "settings": {
+            "icon_class": "ri-search-line",
+            "icon_svg": "",
+            "title": "Absolute Transparency",
+            "description": "Every material is natural and clearly sourced. No hidden fillers, no synthetic coatings, no shortcuts."
+          }
+        },
+        "value_card_XHMfUD": {
+          "type": "value_card",
+          "settings": {
+            "icon_class": "ri-plant-line",
+            "icon_svg": "",
+            "title": "Nature's Wisdom First",
+            "description": "Traditional techniques passed through three generations take precedence over factory shortcuts, preserving both quality and authenticity in every piece."
+          }
+        },
+        "value_card_zDqMA7": {
+          "type": "value_card",
+          "settings": {
+            "icon_class": "ri-recycle-line",
+            "icon_svg": "",
+            "title": "Consistent Quality Control",
+            "description": "Every product that leaves our workshop is hand-checked to meet the same consistent standard, every single time."
+          }
+        },
+        "value_card_WfUExx": {
+          "type": "value_card",
+          "settings": {
+            "icon_class": "ri-heart-3-line",
+            "icon_svg": "",
+            "title": "Customer Satisfaction",
+            "description": "Easy replacements, honest communication, and responsive support for every customer, every order."
+          }
+        }
+      },
+      "block_order": [
+        "value_card_pDDFgz",
+        "value_card_XHMfUD",
+        "value_card_zDqMA7",
+        "value_card_WfUExx"
+      ],
+      "name": "Custom Brand Values",
+      "settings": {
+        "section_width": "container",
+        "color_scheme": "scheme-e2434dd4-80ca-43a1-909b-8a9f7b57a7ab",
+        "max_width": 1200,
+        "bg_color": "#ffffff",
+        "show_border_bottom": false,
+        "border_bottom_color": "#2c2609",
+        "tag_text": "OUR PROMISE",
+        "tag_color": "#a24c24",
+        "heading_text": "Our Unwavering Commitments",
+        "heading_color": "#000000",
+        "paragraph_text": "We built RB Mitti Store on four foundational promises that guide every decision we make — from sourcing materials to the care that reaches every customer.",
+        "paragraph_color": "#333333",
+        "center_image": "shopify://shop_images/RB_Mitti_Store.webp",
+        "image_border_color": "#d8d8d8",
+        "card_title_color": "#1b1b1b",
+        "card_desc_color": "#333333",
+        "icon_bg_color": "#b1552b",
+        "icon_text_color": "#ffffff",
+        "icon_border_color": "#54392c",
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "reset_spacing": true
+      }
+    },
+    "custom_journey_steps_TPLN3H": {
+      "type": "custom-journey-steps",
+      "blocks": {
+        "step_BewtDg": {
+          "type": "step",
+          "settings": {
+            "title": "Sourcing the Clay",
+            "image": "shopify://shop_images/clay_sourcing.webp",
+            "show_checkmark": true
+          }
+        },
+        "step_QiYar7": {
+          "type": "step",
+          "settings": {
+            "title": "Shaped by Hand",
+            "image": "shopify://shop_images/making_Clay.webp",
+            "show_checkmark": true
+          }
+        },
+        "step_By3YxD": {
+          "type": "step",
+          "settings": {
+            "title": "Dried & Fired",
+            "image": "shopify://shop_images/fired_clay.png",
+            "show_checkmark": true
+          }
+        },
+        "step_YyQiAV": {
+          "type": "step",
+          "settings": {
+            "title": "Quality Checked",
+            "image": "shopify://shop_images/RB_Mitti_Store.webp",
+            "show_checkmark": true
+          }
+        }
+      },
+      "block_order": [
+        "step_BewtDg",
+        "step_QiYar7",
+        "step_By3YxD",
+        "step_YyQiAV"
+      ],
+      "name": "Custom Journey Steps",
+      "settings": {
+        "section_width": "fluid_container",
+        "color_scheme": "",
+        "max_width": 1300,
+        "bg_color": "#faf7ef",
+        "show_border_bottom": false,
+        "border_bottom_color": "#2c2609",
+        "tag_text": "Steps",
+        "tag_color": "#a24c24",
+        "heading_text": "How Our Products Are Made",
+        "heading_color": "#000000",
+        "paragraph_text": "All our products are made from natural clay, carefully chosen for cooking use. Local craftsmen shape each piece by hand, dry it, and fire it in a kiln.",
+        "paragraph_color": "#000000",
+        "card_bg_color": "#ffffff",
+        "card_border_color": "#000000",
+        "step_bg_color": "#a24c24",
+        "step_text_color": "#ffffff",
+        "arrow_color": "#a24c24",
+        "autoplay_delay": 2500,
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "reset_spacing": true
+      }
+    },
+    "divider_jTBGQJ": {
+      "type": "divider",
+      "settings": {
+        "section_width": "container",
+        "border_height": 1,
+        "border_color": "#ebebeb",
+        "reset_spacing": false
+      }
+    },
+    "custom_our_story_X39Bec": {
+      "type": "custom-our-story",
+      "blocks": {
+        "subheading_DjUqcd": {
+          "type": "subheading",
+          "settings": {
+            "text": "Handcrafted Quality You Can Trust",
+            "color": "#b1552b"
+          }
+        },
+        "heading_KibNTG": {
+          "type": "heading",
+          "settings": {
+            "text": "WHY CHOOSE RB MITTI Store",
+            "color": "#000000"
+          }
+        },
+        "text_7F3i8X": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>From clay cookware that's hand-shaped and naturally fired for authentic dum-style cooking, to water coolers that keep water naturally cool without electricity — every category in our collection reflects the same commitment to natural materials and honest craftsmanship. Our marble kitchen tools are cut from genuine stone for lasting durability, our wooden tools are safe for everyday use with non-stick cookware, and our hand-painted dinner and serving sets bring authentic Pakistani tradition to every table. No shortcuts, no synthetic substitutes — just the same standard, product after product.<br/><br/></p>",
+            "color": "#121212"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_DjUqcd",
+        "heading_KibNTG",
+        "text_7F3i8X"
+      ],
+      "name": "Custom Our Story",
+      "settings": {
+        "section_width": "container",
+        "color_scheme": "",
+        "layout_desktop": "image_left",
+        "max_width": 1200,
+        "bg_color": "#ffffff",
+        "show_border_bottom": false,
+        "border_bottom_color": "#2c2609",
+        "image": "shopify://shop_images/rbmitti_1.webp",
+        "image_aspect_ratio": "square",
+        "image_border_radius": 8,
+        "padding_top": 20,
+        "padding_bottom": 80,
+        "reset_spacing": true
+      }
+    },
+    "divider_QHY9t9": {
+      "type": "divider",
+      "name": "t:sections.divider.name",
+      "settings": {
+        "section_width": "full_width",
+        "border_height": 1,
+        "border_color": "#a9a9a9",
+        "reset_spacing": true
+      }
+    }
+  },
+  "order": [
+    "page-heading",
+    "custom_our_story_h9UCMz",
+    "custom_our_story_KHAtRF",
+    "custom_brand_values_hwhrpU",
+    "custom_journey_steps_TPLN3H",
+    "divider_jTBGQJ",
+    "custom_our_story_X39Bec",
+    "divider_QHY9t9"
+  ]
+}

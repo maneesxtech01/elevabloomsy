@@ -1,0 +1,55 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "page-heading": {
+      "type": "page-heading",
+      "blocks": {
+        "breadcrumb_6nAPEU": {
+          "type": "breadcrumb",
+          "settings": {}
+        },
+        "heading_BYBdxq": {
+          "type": "heading",
+          "settings": {
+            "page_title": "{{ page.title }}",
+            "header_size": "default"
+          }
+        }
+      },
+      "block_order": [
+        "breadcrumb_6nAPEU",
+        "heading_BYBdxq"
+      ],
+      "settings": {
+        "section_width": "container",
+        "color_scheme": "scheme-4faf0e4d-27f4-4d02-bc51-617383bab1a9",
+        "alignment": "center",
+        "background_image": "shopify://shop_images/rbmitti.webp",
+        "overlay_opacity": 50,
+        "height": "based_on_content",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "main": {
+      "type": "page-recently-viewed",
+      "settings": {
+        "section_width": "container",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "page-heading",
+    "main"
+  ]
+}

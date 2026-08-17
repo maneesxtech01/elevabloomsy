@@ -1,0 +1,89 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-heading",
+      "blocks": {
+        "breadcrumb_VbVAPG": {
+          "type": "breadcrumb",
+          "settings": {}
+        },
+        "heading_E7w9DE": {
+          "type": "heading",
+          "settings": {
+            "page_title": "{{ collection.title }}",
+            "header_size": "large"
+          }
+        }
+      },
+      "block_order": [
+        "breadcrumb_VbVAPG",
+        "heading_E7w9DE"
+      ],
+      "settings": {
+        "section_width": "container",
+        "color_scheme": "scheme-4faf0e4d-27f4-4d02-bc51-617383bab1a9",
+        "alignment": "center",
+        "background_image": "shopify://shop_images/rbmitti.webp",
+        "show_collection_image": false,
+        "overlay_opacity": 50,
+        "height": "based_on_content",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product",
+      "blocks": {
+        "categories_Gk8d": {
+          "type": "categories",
+          "settings": {
+            "title": "Category",
+            "menu": "collection"
+          }
+        },
+        "filter_Lk9d": {
+          "type": "filter",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "categories_Gk8d",
+        "filter_Lk9d"
+      ],
+      "settings": {
+        "section_width": "container",
+        "enable_filtering": true,
+        "show_filter_counts": true,
+        "default_filter": "open_all",
+        "filter_layout": "vertical",
+        "vertical_posion": "left",
+        "number_products_per_page": true,
+        "sorting": true,
+        "grid_list": true,
+        "items_to_show": 16,
+        "items_per_row": 3,
+        "column_gap": 15,
+        "pagination": "load_more_button",
+        "button_show_more": "Show more",
+        "promotion_link": "",
+        "promotion_postion": 3,
+        "items_per_row_mobile": "1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid"
+  ]
+}

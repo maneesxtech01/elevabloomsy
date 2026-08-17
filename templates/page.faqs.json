@@ -1,0 +1,131 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "page-heading": {
+      "type": "page-heading",
+      "blocks": {
+        "breadcrumb_kg6gTP": {
+          "type": "breadcrumb",
+          "settings": {}
+        },
+        "heading_fmyy8C": {
+          "type": "heading",
+          "settings": {
+            "page_title": "{{ page.title }}",
+            "header_size": "default"
+          }
+        }
+      },
+      "block_order": [
+        "breadcrumb_kg6gTP",
+        "heading_fmyy8C"
+      ],
+      "settings": {
+        "section_width": "container",
+        "color_scheme": "scheme-4faf0e4d-27f4-4d02-bc51-617383bab1a9",
+        "alignment": "center",
+        "background_image": "shopify://shop_images/rbmitti.webp",
+        "overlay_opacity": 50,
+        "height": "based_on_content",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "main": {
+      "type": "page-faqs",
+      "blocks": {
+        "faq_ThHtgk": {
+          "type": "faq",
+          "settings": {
+            "question": "1. How do I place an order on RB Mitti Store?",
+            "answer": "<p>Simply browse our collections, add your favorite items to cart, and proceed to checkout. Fill in your delivery details, and confirm your order — it's that easy</p>"
+          }
+        },
+        "faq_Gicg7X": {
+          "type": "faq",
+          "settings": {
+            "question": "2. How much is shipping and how long will it take?",
+            "answer": "<p>A flat delivery fee of Rs. 220 applies to all orders within Pakistan, with free delivery on orders above Rs. 10,000. Standard delivery takes 4-6 working days, depending on your location.</p>"
+          }
+        },
+        "faq_836jPJ": {
+          "type": "faq",
+          "settings": {
+            "question": "3. How long will it take to get my package?",
+            "answer": "<p>Most orders arrive within 4-6 working days across Pakistan. Karachi-based customers typically receive their orders faster, within 3-5 working days</p>"
+          }
+        },
+        "faq_ia7ibM": {
+          "type": "faq",
+          "settings": {
+            "question": "4. Do you offer Cash on Delivery (COD)?",
+            "answer": "<p>Yes, Cash on Delivery is currently our primary payment method, available on all orders across Pakistan.</p>"
+          }
+        },
+        "faq_MGGnKg": {
+          "type": "faq",
+          "settings": {
+            "question": "5. What if my item arrives damaged?",
+            "answer": "<p>Please inspect your parcel at the time of delivery. If an item is damaged, report it within 24 hours with photos or a video, and we'll arrange a free replacement or store credit as outlined in our Replacement & Refund Policy.</p>"
+          }
+        },
+        "faq_hzk8XA": {
+          "type": "faq",
+          "settings": {
+            "question": "6. Do you deliver internationally?",
+            "answer": "<p>Currently, we only deliver within Pakistan. We're working on expanding our shipping options in the future.</p>"
+          }
+        },
+        "faq_bbTtjx": {
+          "type": "faq",
+          "settings": {
+            "question": "7. Do you offer wholesale or bulk order pricing?",
+            "answer": "<p>Yes! If you're looking to place a bulk order for resale, gifting, or events, we offer special wholesale pricing. Fill out our Bulk Order form and our team will get in touch with you: <a href=\"https://rbmittistore.myshopify.com/pages/bulk-order\">Bulk Order Inquiry</a></p><p>You're also welcome to visit our workshop in Karachi in person to discuss your requirements and finalize a deal directly with our team.</p>"
+          }
+        },
+        "faq_t9wCQX": {
+          "type": "faq",
+          "settings": {
+            "question": "8. Do you offer gift wrapping or packaging for special occasions?",
+            "answer": "<p>Yes, we can arrange special packaging for gifts on request — just mention it in your order notes or message us on WhatsApp before your order ships.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_ThHtgk",
+        "faq_Gicg7X",
+        "faq_836jPJ",
+        "faq_ia7ibM",
+        "faq_MGGnKg",
+        "faq_hzk8XA",
+        "faq_bbTtjx",
+        "faq_t9wCQX"
+      ],
+      "settings": {
+        "section_width": "container",
+        "heading": "We're Here to Help",
+        "description": "<p><br/>Couldn't find the answer you were looking for? No problem — reach out to us directly on WhatsApp at <a href=\"https://wa.me/923368145851\">+92 3368145851</a>, or fill out our Contact Form and we'll get back to you as soon as possible.<br/><br/></p>",
+        "first_button_label": "Contact Us",
+        "first_button_link": "shopify://pages/contact",
+        "first_button_type": "primary",
+        "second_button_label": "",
+        "second_button_link": "shopify://pages/about",
+        "second_button_type": "primary",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "page-heading",
+    "main"
+  ]
+}

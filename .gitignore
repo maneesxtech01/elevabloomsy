@@ -1,0 +1,9 @@
+# Shopify theme ignore
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.local
+node_modules/
+.shopify/
+config/settings_data.json

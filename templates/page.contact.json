@@ -1,0 +1,96 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "page-heading": {
+      "type": "page-heading",
+      "blocks": {
+        "breadcrumb_kg6gTP": {
+          "type": "breadcrumb",
+          "settings": {}
+        },
+        "heading_fmyy8C": {
+          "type": "heading",
+          "settings": {
+            "page_title": "Contact Us",
+            "header_size": "default"
+          }
+        }
+      },
+      "block_order": [
+        "breadcrumb_kg6gTP",
+        "heading_fmyy8C"
+      ],
+      "settings": {
+        "section_width": "container",
+        "color_scheme": "scheme-4faf0e4d-27f4-4d02-bc51-617383bab1a9",
+        "alignment": "center",
+        "background_image": "shopify://shop_images/rbmitti.webp",
+        "overlay_opacity": 50,
+        "height": "based_on_content",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "main": {
+      "type": "page-contact",
+      "blocks": {
+        "contact_form_block": {
+          "type": "contact_form",
+          "settings": {
+            "heading": "Contact us",
+            "name": "Full name",
+            "email": "Email",
+            "show_subject": true,
+            "subject_label": "Subject",
+            "message": "Message",
+            "show_attach": true,
+            "button_label": "Send"
+          }
+        },
+        "contact_info_block": {
+          "type": "contact_info",
+          "settings": {
+            "heading": "Get in touch",
+            "call_label": "Call Us",
+            "phone": "+92 3368145851",
+            "email": "rbmittistore@gmail.com",
+            "address": "Taj Mohammad Khan Rd, Kumhar Wara Noorani Colony, Karachi",
+            "map_iframe": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.6611177160194!2d67.00303827446199!3d24.875421244660544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f0016307a31%3A0x4955a89f971ef4c5!2sShakoor%20Matke%20wala!5e0!3m2!1sen!2s!4v1784931191058!5m2!1sen!2s\" width=\"600\" height=\"550\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\"></iframe>"
+          }
+        }
+      },
+      "block_order": [
+        "contact_form_block",
+        "contact_info_block"
+      ],
+      "settings": {
+        "section_width": "container",
+        "color_scheme": "default",
+        "icon_color": "#ffffff",
+        "icon_bg_color": "#b1552b",
+        "icon_hover_color": "#ffffff",
+        "icon_hover_bg_color": "#111827",
+        "button_bg_color": "#b1552b",
+        "button_text_color": "#ffffff",
+        "button_hover_bg_color": "#76310f",
+        "input_border_radius": 8,
+        "button_border_radius": 50,
+        "button_font_size": 16,
+        "button_font_weight": "600",
+        "button_padding_vertical": 14
+      }
+    }
+  },
+  "order": [
+    "page-heading",
+    "main"
+  ]
+}

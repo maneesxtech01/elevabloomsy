@@ -1,0 +1,125 @@
+{%- liquid
+  assign section_st = section.settings
+  assign show_category = show_category
+  assign show_date = show_date
+  assign show_excerpt = show_excerpt
+  assign show_readmore = show_readmore
+  assign show_author = show_author
+  assign custom_ratio = custom_ratio
+  assign column_gap = column_gap
+  assign readmore_type = readmore_type | default: 'primary'
+  assign content_alignment = section_st.content_alignment | default: 'left'
+  assign card_bg_color = card_bg_color | default: section_st.card_bg_color | default: '#ffffff'
+  assign card_border_color = card_border_color | default: section_st.card_border_color | default: '#e5e7eb'
+  assign image_fit = image_fit | default: section_st.image_fit | default: 'contain'
+-%}
+{%- capture style_ratio -%}
+  {%- liquid
+    assign ratio = ''
+    if image_ratio != 'adapt' and image_ratio != 'square'
+      case image_ratio
+        when 'landscape'
+          assign ratio = '4/3'
+        when 'portrait'
+          assign ratio = '3/4'
+        else
+          if custom_ratio != empty
+            assign ratio = custom_ratio | replace: ':', '/'
+          else
+            assign ratio = '16/10'
+          endif
+      endcase
+    else
+      if article.image != blank and image_ratio == 'adapt'
+        assign ratio = article.image.aspect_ratio
+      else
+        assign ratio = '16/10'
+      endif
+    endif
+  -%}
+  --aspect-ratio: {{ ratio }};
+{%- endcapture -%}
+<motion-element
+  data-motion="fade-up-lg"
+  {% if scroll_animation != 'slide_in' or search_card == true %}
+    hold
+  {% endif %}
+  data-motion-delay="{{ indexFor | times: 75 }}"
+  class="blog-posts-item article-card-component {% if pagination == 'load_more_button' or pagination == 'infinit_scrolling' %} loadmore-item{% endif %}{% if layout == 'list' %} flex gap align-center flex-wrap flex-sm-nowrap {% else %} block {% endif %}{% if scroll_animation != 'none' %} scroll-trigger {{ scroll_animation }}{% endif %}"
+  {% if indexFor and scroll_animation %}
+    data-cascade
+    style="--animation-order: {{ indexFor }};"
+  {% endif %}
+>
+  {% assign blog_name = article.handle | split: '/' | first %}
+  {% assign category_label = blog_name | capitalize %}
+  {% if category_label == blank or category_label == 'News' or category_label == 'Blog' %}
+    {% assign category_label = 'Resources' %}
+  {% endif %}
+
+  <div class="article-card-inner" style="--card-bg: {{ card_bg_color }}; --card-border: {{ card_border_color }}; --blog-img-fit: {{ image_fit }};">
+    <div class="blog-posts-image article-card-media-wrap hover-effect{% if layout == 'list' %} w-full col-sm-w-custom{% endif %}">
+      <a
+        class="article-card-media-link block"
+        href="{{ article.url }}"
+        aria-label="{{ category_label }}"
+        style="{{ style_ratio | strip | strip_newlines }}"
+      >
+        {%- if article.image != blank -%}
+          {%- assign image_alt = article.image.alt | default: article.title | escape -%}
+          {% render 'responsive-image',
+            type: 'blog',
+            class: 'article-card-img',
+            container: section_width,
+            image: article.image,
+            colunm: items_per_row,
+            colunm_mobile: items_per_row_mobile,
+            padding: column_gap,
+            image_alt: image_alt
+          %}
+        {%- else -%}
+          {%- render 'placeholder-render', class: 'article-card-img transition' -%}
+        {%- endif -%}
+      </a>
+    </div>
+
+    <div class="blog-posts-info article-card-body text-{{ content_alignment }}{% if layout == 'list' %} col-md-remaining{% endif %}">
+      {%- if article.title != blank -%}
+        <h3 class="blog-posts-title article-card-title mt-0 mb-6 heading-letter-spacing">
+          <a href="{{ article.url }}" aria-label="{{ article.title }}" class="no-underline heading-color">
+            {{ article.title }}
+          </a>
+        </h3>
+      {%- endif -%}
+
+      {%- if show_date != false -%}
+        <div class="blog-posts-date article-card-date mb-12">
+          <span>
+            {{ article.published_at | date: '%B %-d, %Y' }}
+          </span>
+        </div>
+      {%- endif -%}
+
+      {%- if show_excerpt != false -%}
+        <div class="blog-posts-content article-card-excerpt mb-20 word-break">
+          {%- if article.excerpt != blank -%}
+            {{ article.excerpt | strip_html | truncatewords: 22, '...' }}
+          {%- else -%}
+            {{ article.content | strip_html | truncatewords: 22, '...' }}
+          {%- endif -%}
+        </div>
+      {%- endif -%}
+
+      {%- if show_readmore != false -%}
+        <div class="article-card-action">
+          <a
+            class="inline-flex blog-posts-readmore article-card-readmore no-underline"
+            href="{{ article.url }}"
+          >
+            <span>{{- 'blog_post.read_more' | t -}}</span>
+          </a>
+        </div>
+      {%- endif -%}
+    </div>
+  </div>
+</motion-element>
