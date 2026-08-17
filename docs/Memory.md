@@ -14,4 +14,5 @@
   - Desktop View: Logo left, capsule search bar center (cyan spark ✨ + magnifier 🔍, live predictive search with `z-index: 999999`), action links right (`sign in`, `favorites`, `cart`). **Strictly no hamburger menu on desktop**.
   - Mobile View: Theme default mobile layout with `SHOP ☰` toggle on left (triggering native side drawer menu & categories), logo in center, action icons & capsule search.
   - Linked `cart` action item directly to theme slide-out minicart sidebar drawer.
+  - Custom Slide Height: Increased `desktop_height` range slider maximum limit from `1000px` to `1500px` across slideshow and overlay sections.
   - Strict performance optimization constraint: lightweight pure Vanilla CSS & JS without heavy third-party libraries.
